@@ -1,4 +1,8 @@
 {
+  "name": "copy",
+  "bin": {
+    "copy": "index.js"
+  },
   "dependencies": {
     "@hyperswarm/dht": "^5.0.25",
     "@solvencino/fs-stream": "^1.0.4"
