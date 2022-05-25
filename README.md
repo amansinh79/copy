@@ -6,7 +6,11 @@
 
 #### alice
 
-`copy <dir-name>` -> key
+`copy <dir-name>` -> key (copy all files in a dir)
+
+or
+
+`copy` -> select files -> key (select files in a cwd)
 
 #### bob
 
