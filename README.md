@@ -10,7 +10,7 @@
 
 or
 
-`copy` -> select files -> key (select files in a cwd)
+`copy` -> select files -> key (select files in cwd)
 
 #### bob
 

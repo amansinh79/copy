@@ -6,7 +6,10 @@ export default async function (path, files) {
   const server = node.createServer()
 
   server.on("connection", async function (noiseSocket) {
-    const s = await send(path, files)
+    const s = await send(path, files, (file) => {
+      console.log(file)
+      return true
+    })
     s.pipe(noiseSocket)
     s.on("end", () => {
       node.destroy()

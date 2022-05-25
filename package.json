@@ -1,12 +1,12 @@
 {
   "name": "@solvencino/copy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
     "copy": "index.js"
   },
   "dependencies": {
     "@hyperswarm/dht": "^5.0.25",
-    "@solvencino/fs-stream": "^2.0.0",
+    "@solvencino/fs-stream": "^2.0.1",
     "debug": "^4.3.4",
     "select-files-cli": "^0.0.4"
   },
