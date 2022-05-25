@@ -5,7 +5,8 @@
   },
   "dependencies": {
     "@hyperswarm/dht": "^5.0.25",
-    "@solvencino/fs-stream": "^1.0.4"
+    "@solvencino/fs-stream": "^1.0.5",
+    "debug": "^4.3.4"
   },
   "type": "module"
 }
