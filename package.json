@@ -1,5 +1,6 @@
 {
-  "name": "copy",
+  "name": "@solvencino/copy",
+  "version": "1.0.0",
   "bin": {
     "copy": "index.js"
   },
@@ -9,5 +10,8 @@
     "debug": "^4.3.4",
     "select-files-cli": "^0.0.4"
   },
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  }
 }
