@@ -1,5 +1,5 @@
 import DHT from "@hyperswarm/dht"
-import { receive } from "@solvencino/fs-stream"
+import { receive } from "streamer-fs"
 
 export default function (path, key) {
   const node = new DHT()

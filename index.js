@@ -15,8 +15,7 @@ if (key) {
 } else {
   let files
   if (path) {
-    path = resolve(path)
-    files = getFiles(path)
+    files = [resolve(path)]
   } else {
     path = process.cwd()
     const { selectedFiles, status } = await selectFiles({ clearConsole: false })
@@ -30,12 +29,3 @@ if (key) {
   server(path, files)
 }
 
-function getFiles(dir) {
-  return fs.readdirSync(dir).flatMap((item) => {
-    const p = `${dir}${sep}${item}`
-    if (fs.statSync(p).isDirectory()) {
-      return getFiles(p)
-    }
-    return p
-  })
-}
