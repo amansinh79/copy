@@ -2,7 +2,6 @@
 import client from "./client.js"
 import server from "./server.js"
 import { resolve, sep } from "path"
-import fs from "fs"
 import { selectFiles } from "select-files-cli"
 
 const args = process.argv.slice(2)
@@ -26,6 +25,5 @@ if (key) {
       process.exit()
     }
   }
-  server(path, files)
+  server(files)
 }
-

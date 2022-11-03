@@ -1,17 +1,13 @@
-## install
-
-`sudo npm install -g @solvencino/copy`
-
 ## usage
 
 #### alice
 
-`copy <dir-name>` -> key (copy all files in a dir)
+`node index.js <dir-name>` -> key (copy all files in a dir)
 
 or
 
-`copy` -> select files -> key (select files in cwd)
+`nodex index.js` -> select files -> key (select files in cwd)
 
 #### bob
 
-`copy <dir-name> key`
+`node index.js <dir-name> key`
