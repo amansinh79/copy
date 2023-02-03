@@ -14,7 +14,6 @@ export default async function (files) {
     data[md5(t)] = t;
   });
 
-  console.log(data);
   console.log("File Selected :");
   console.log(
     Object.values(data)
